@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#bg{
+    /* overflow: hidden; */
+    padding: 0 12%;
+    padding-top: 2%;
+    height: 100%;
+    width: 100%;
+    background-image: url(Bg.png);
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 12%; */
+    width: 100%;
+    height: 50px;
+    margin-bottom: 60px;
+    /* background-color: antiquewhite; */
+}
+#nav h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+#nav #link a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+#nav button{
+    padding: 12px 45px;
+    background-color: #EEE6FE;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#main{
+    height: 84.6%;
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+}
+#left{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    /* background-color: rgb(33, 199, 199); */
+}
+#left #content{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 65%;
+    /* background-color: brown; */
+}
+#left #content h1{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 40px;
+}
+#left #content p{
+    font-size: 16px;
+    font-weight: 500;
+}
+#right{
+    width: 45%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#right .class-box{
+    width: 100%;
+    height: 23%;
+    /* padding: 25px; */
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; */
+    background-position: center;
+    background-size: cover;
+}
+.class-box .data{
+    width: 24%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    /* background-color: rgb(4, 80, 80); */
+    text-align: right;
+}
+.class-box .data h6{                            
+    /* width: 21px; */
+    /* position: absolute;
+    right: 0%; */
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 10px;
+    text-align: right;
+}
+.class-box .data h4{
+    color: rgb(243, 243, 243);
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.overlay{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 25px;
+}
+#right #top{
+    background-image: url(https://images.unsplash.com/photo-1513135724701-30343e546328?ixlib=rb-1.2.1&auto=format&fit=crop&w=695&q=80);
+    /* background-color: cadetblue; */
+}
+#right #center{
+    background-image: url(https://images.unsplash.com/photo-1529066745603-f368fa6d32de?ixlib=rb-1.2.1&auto=format&fit=crop&w=1039&q=80);
+    /* background-color: chartreuse; */
+}
+#right #bottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1571283600721-e0e5d851fd17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    /* background-color: crimson; */
+}
+#social{
+    position: absolute;
+    /* transform: rotate(-90deg); */
+    top: 55%;
+    right: -5% ;
+    /* background-color: darkblue; */
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#social-site{
+    transform: rotate(-90deg);
+    top: 55%;
+}
+#social #social-site a{
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+#icon{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.212);
+}
+#icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+}
