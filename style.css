@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "montserrat";
+    /* font-family: "MrEavesXLModNarOT ☞"; */
+    font-family: "MrEavesXLModOT ☞";
 }
 html, body {
     height: 100%;
@@ -31,13 +32,13 @@ html, body {
     /* background-color: antiquewhite; */
 }
 #nav h1{
-    font-size: 35px;
-    font-weight: 800;
+    font-size: 45px;
+    font-weight: 900;
 }
 #nav #link a{
     text-decoration: none;
     color: #000;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     margin-left: 50px;
 }
@@ -47,7 +48,7 @@ html, body {
     border: none;
     outline: none;
     border-radius: 25px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
 }
 #main{
@@ -67,18 +68,21 @@ html, body {
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
-    width: 65%;
+    width: 52%;
     /* background-color: brown; */
 }
 #left #content h1{
-    font-size: 80px;
-    font-weight: 600;
+    font-family: "MrEavesXLModOT-Reg ☞";
+    font-size: 90px;
+    font-weight: 700;
     line-height: 80px;
     margin-bottom: 40px;
 }
 #left #content p{
-    font-size: 16px;
+    /* font-family: "MrEavesXLModOT-Reg ☞"; */
+    font-size: 18px;
     font-weight: 500;
+    color: rgba(0, 0, 0, 0.521);
 }
 #right{
     width: 45%;
@@ -99,7 +103,7 @@ html, body {
     background-size: cover;
 }
 .class-box .data{
-    width: 24%;
+    width: 29%;
     height: 90px;
     display: flex;
     flex-direction: column;
@@ -112,6 +116,7 @@ html, body {
     /* width: 21px; */
     /* position: absolute;
     right: 0%; */
+    
     background-color: #fff;
     border-radius: 50%;
     padding: 4px;
@@ -119,8 +124,9 @@ html, body {
     text-align: right;
 }
 .class-box .data h4{
-    color: rgb(243, 243, 243);
-    font-size: 27px;
+    font-family: "MrEavesXLModOT-Reg ☞";
+    color: rgb(255, 255, 255);
+    font-size: 40px;
     font-weight: 500;
     line-height: 27px;
 }
@@ -166,7 +172,7 @@ html, body {
 }
 #social #social-site a{
     text-decoration: none;
-    color: rgb(158, 158, 158);
+    color: rgba(0, 0, 0, 0.336);
     font-size: 12px;
     font-weight: 600;
     margin-right: 20px;
